@@ -1,0 +1,7 @@
+<resources>
+    <color name="morado">#5E35B1</color>
+    <color name="morado_oscuro">#4527A0</color>
+    <color name="prioridad_alta">#E53935</color>
+    <color name="prioridad_media">#FB8C00</color>
+    <color name="prioridad_baja">#43A047</color>
+</resources>

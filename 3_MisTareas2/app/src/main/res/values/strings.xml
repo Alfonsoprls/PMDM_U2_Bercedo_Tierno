@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Mis Tareas 2</string>
+
+    <string name="prioridad_alta">Alta</string>
+    <string name="prioridad_media">Media</string>
+    <string name="prioridad_baja">Baja</string>
+    <string name="prioridad_formato">Prioridad: %1$s</string>
+    <string name="prioridad_cambiada">Prioridad cambiada a %1$s</string>
+
+    <string name="menu_vista_cuadricula">Vista en cuadrícula</string>
+    <string name="menu_vista_lista">Vista en lista</string>
+    <string name="menu_borrar_completadas">Borrar completadas</string>
+    <string name="menu_duplicar">Duplicar</string>
+    <string name="menu_eliminar">Eliminar</string>
+
+    <string name="titulo_copia">%1$s (copia)</string>
+    <string name="tarea_duplicada">Tarea duplicada</string>
+    <string name="tarea_eliminada">Tarea eliminada</string>
+    <string name="sin_completadas">No hay tareas completadas</string>
+    <plurals name="tareas_borradas">
+        <item quantity="one">Se ha borrado %d tarea completada</item>
+        <item quantity="many">Se han borrado %d tareas completadas</item>
+        <item quantity="other">Se han borrado %d tareas completadas</item>
+    </plurals>
+
+    <string name="cd_completada">Marcar como completada</string>
+    <string name="cd_cambiar_prioridad">Cambiar prioridad</string>
+
+    <string-array name="tareas_ejemplo">
+        <item>Entregar el hito de PMDM</item>
+        <item>Repasar RecyclerView</item>
+        <item>Comprar el pan</item>
+        <item>Preparar el entrenamiento</item>
+        <item>Estudiar para el examen de SGE</item>
+        <item>Llamar al dentista</item>
+    </string-array>
+
+    <string name="titulo_tareas_de">Tareas de %1$s</string>
+    <string name="menu_cambiar_nombre">Cambiar nombre</string>
+
+    <string name="dialogo_nombre_titulo">¿Cómo te llamas?</string>
+    <string name="dialogo_nombre_mensaje">Lo usaremos para personalizar la aplicación.</string>
+    <string name="hint_nombre">Tu nombre</string>
+    <string name="error_nombre_vacio">Escribe tu nombre</string>
+    <string name="bienvenida">¡Hola, %1$s!</string>
+
+    <string name="dialogo_nueva_tarea_titulo">Nueva tarea</string>
+    <string name="hint_titulo_tarea">Título</string>
+    <string name="error_titulo_vacio">Escribe un título</string>
+    <string name="etiqueta_prioridad">Prioridad</string>
+    <string name="sin_fecha_limite">Sin fecha límite</string>
+    <string name="elegir_fecha">Elegir fecha</string>
+    <string name="fecha_limite">Fecha límite: %1$s</string>
+    <string name="tarea_creada">Tarea creada</string>
+
+    <string name="confirmar_eliminar_titulo">¿Eliminar?</string>
+    <string name="confirmar_eliminar_mensaje">Se eliminará la tarea «%1$s».</string>
+    <string name="deshacer">Deshacer</string>
+
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="crear">Crear</string>
+</resources>

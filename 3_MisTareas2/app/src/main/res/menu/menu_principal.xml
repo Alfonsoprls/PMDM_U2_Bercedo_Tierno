@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accion_cambiar_vista"
+        android:icon="@drawable/ic_view_grid"
+        android:title="@string/menu_vista_cuadricula"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/accion_borrar_completadas"
+        android:title="@string/menu_borrar_completadas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accion_cambiar_nombre"
+        android:title="@string/menu_cambiar_nombre"
+        app:showAsAction="never" />
+</menu>
