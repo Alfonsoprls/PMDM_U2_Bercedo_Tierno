@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mi Biblioteca</string>
+    <string name="hint_titulo">Título del libro</string>
+    <string name="hint_autor">Autor</string>
+    <string name="boton_anadir">Añadir</string>
+    <string name="error_titulo">Escribe el título</string>
+    <string name="error_autor">Escribe el autor</string>
+    <string name="sin_libros">Aún no hay libros</string>
+    <string name="libro_anadido">Libro añadido</string>
+    <string name="libro_borrado">«%1$s» borrado</string>
+    <string name="deshacer">Deshacer</string>
+    <string name="contador">%1$s · %2$s</string>
+    <plurals name="n_libros">
+        <item quantity="one">%d libro</item>
+        <item quantity="many">%d libros</item>
+        <item quantity="other">%d libros</item>
+    </plurals>
+    <plurals name="n_leidos">
+        <item quantity="one">%d leído</item>
+        <item quantity="many">%d leídos</item>
+        <item quantity="other">%d leídos</item>
+    </plurals>
+    <string name="cd_leido">Marcar como leído</string>
+    <string name="cd_borrar">Borrar libro</string>
+</resources>

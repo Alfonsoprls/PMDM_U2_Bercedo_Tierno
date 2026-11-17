@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.MiBiblioteca" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/marron</item>
+        <item name="android:statusBarColor">@color/marron_oscuro</item>
+    </style>
+</resources>
