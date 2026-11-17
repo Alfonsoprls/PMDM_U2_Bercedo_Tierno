@@ -1,0 +1,16 @@
+<resources>
+    <color name="primario">#A8C8FF</color>
+    <color name="sobre_primario">#00305F</color>
+    <color name="contenedor_primario">#1E3A5F</color>
+    <color name="secundario">#FFB74D</color>
+    <color name="fondo">#121418</color>
+    <color name="barra_estado">#0B1A2E</color>
+    <color name="cabecera_drawer">#1E3A5F</color>
+    <color name="texto_cabecera">#E3E8F2</color>
+    <color name="estrella">#FFCA28</color>
+    <color name="texto_chip">#ECEFF4</color>
+    <color name="chip_tecnologia">#1F4E79</color>
+    <color name="chip_empleo">#2E5E33</color>
+    <color name="chip_deportes">#7A4A12</color>
+    <color name="chip_cultura">#5B2C6F</color>
+</resources>

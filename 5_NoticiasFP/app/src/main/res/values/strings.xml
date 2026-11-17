@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Noticias FP</string>
+    <string name="subtitulo_cabecera">La actualidad de la Formación Profesional</string>
+    <string name="abrir_menu">Abrir menú</string>
+    <string name="cerrar_menu">Cerrar menú</string>
+
+    <string name="seccion_portada">Portada</string>
+    <string name="seccion_personal">Personal</string>
+    <string name="seccion_favoritas">Mis favoritas</string>
+    <string name="categoria_tecnologia">Tecnología</string>
+    <string name="categoria_empleo">Empleo</string>
+    <string name="categoria_deportes">Deportes</string>
+    <string name="categoria_cultura">Cultura</string>
+
+    <string name="fab_nueva">Nueva</string>
+    <string name="noticia_nueva_titulo">Noticia nueva</string>
+    <string name="noticia_nueva_resumen">Noticia recién creada desde el botón flotante.</string>
+    <string name="noticia_anadida">Noticia nueva añadida</string>
+    <string name="deshacer">Deshacer</string>
+
+    <string name="marcada_favorita">Añadida a Mis favoritas</string>
+    <string name="quitada_favorita">Quitada de Mis favoritas</string>
+    <string name="cd_marcar_favorita">Marcar como favorita</string>
+    <string name="cd_quitar_favorita">Quitar de favoritas</string>
+    <string name="sin_noticias">No hay noticias en esta sección</string>
+    <string name="sin_favoritas">Todavía no has marcado ninguna favorita</string>
+
+    <string-array name="titulos_noticias">
+        <item>Los ciclos de DAM, entre los más demandados</item>
+        <item>Kotlin se consolida como lenguaje para Android</item>
+        <item>Las empresas buscan perfiles de FP Dual</item>
+        <item>Abierto el plazo de las prácticas en empresa</item>
+        <item>El equipo de hockey del centro gana la liga</item>
+        <item>Campeonato de fútbol sala entre ciclos</item>
+        <item>Semana del cine en la biblioteca del centro</item>
+        <item>Exposición de proyectos de fin de ciclo</item>
+        <item>Nuevo laboratorio de inteligencia artificial</item>
+    </string-array>
+
+    <string-array name="resumenes_noticias">
+        <item>Los titulados en Desarrollo de Aplicaciones Multiplataforma encuentran trabajo en pocos meses.</item>
+        <item>Google lo recomienda como lenguaje principal y cada vez más empresas lo piden.</item>
+        <item>La formación en alternancia gana peso en los procesos de selección.</item>
+        <item>El alumnado de segundo curso ya puede elegir empresa para el periodo de FCT.</item>
+        <item>El equipo cierra la temporada invicto tras una final muy disputada.</item>
+        <item>Los grupos de primero y segundo se enfrentan durante la semana cultural.</item>
+        <item>Proyecciones gratuitas todas las tardes con coloquio al terminar.</item>
+        <item>Los alumnos de último curso presentan sus aplicaciones al público.</item>
+        <item>El centro estrena equipos para trabajar con modelos de aprendizaje automático.</item>
+    </string-array>
+
+    <!-- Nombre del enum Categoria de cada noticia (no se muestra al usuario) -->
+    <string-array name="categorias_noticias" translatable="false">
+        <item>EMPLEO</item>
+        <item>TECNOLOGIA</item>
+        <item>EMPLEO</item>
+        <item>EMPLEO</item>
+        <item>DEPORTES</item>
+        <item>DEPORTES</item>
+        <item>CULTURA</item>
+        <item>CULTURA</item>
+        <item>TECNOLOGIA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Tema base: Material 3 sin ActionBar (usamos MaterialToolbar) -->
+    <style name="Theme.NoticiasFP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/sobre_primario</item>
+        <item name="colorPrimaryContainer">@color/contenedor_primario</item>
+        <item name="colorSecondary">@color/secundario</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="android:statusBarColor">@color/barra_estado</item>
+    </style>
+
+    <style name="Widget.NoticiasFP.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/primario</item>
+        <item name="titleTextColor">@color/sobre_primario</item>
+        <item name="navigationIconTint">@color/sobre_primario</item>
+        <item name="android:theme">@style/ThemeOverlay.NoticiasFP.Toolbar</item>
+    </style>
+
+    <style name="ThemeOverlay.NoticiasFP.Toolbar" parent="">
+        <item name="colorControlNormal">@color/sobre_primario</item>
+    </style>
+</resources>

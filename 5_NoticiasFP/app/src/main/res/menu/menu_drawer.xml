@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_portada"
+            android:icon="@drawable/ic_home"
+            android:title="@string/seccion_portada" />
+        <item
+            android:id="@+id/nav_tecnologia"
+            android:icon="@drawable/ic_article"
+            android:title="@string/categoria_tecnologia" />
+        <item
+            android:id="@+id/nav_empleo"
+            android:icon="@drawable/ic_article"
+            android:title="@string/categoria_empleo" />
+        <item
+            android:id="@+id/nav_deportes"
+            android:icon="@drawable/ic_article"
+            android:title="@string/categoria_deportes" />
+        <item
+            android:id="@+id/nav_cultura"
+            android:icon="@drawable/ic_article"
+            android:title="@string/categoria_cultura" />
+    </group>
+
+    <item android:title="@string/seccion_personal">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_favoritas"
+                    android:icon="@drawable/ic_star"
+                    android:title="@string/seccion_favoritas" />
+            </group>
+        </menu>
+    </item>
+</menu>
