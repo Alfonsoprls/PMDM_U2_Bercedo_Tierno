@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Enrutamiento avanzado</string>
+    <string name="titulo_nueva_nota">Nueva nota</string>
+    <string name="titulo_detalle_nota">Detalle de la nota</string>
+    <string name="instrucciones_nueva_nota">Escribe tu nota y pulsa Enviar para verla en la pantalla de detalle.</string>
+    <string name="hint_titulo">Título</string>
+    <string name="hint_contenido">Contenido (opcional)</string>
+    <string name="boton_enviar">Enviar</string>
+    <string name="aviso_titulo_vacio">Ingresa un título primero</string>
+    <string name="etiqueta_titulo">Título</string>
+    <string name="etiqueta_contenido">Contenido</string>
+    <string name="sin_contenido">(Esta nota no tiene contenido)</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nuevaNotaFragment">
+
+    <fragment
+        android:id="@+id/nuevaNotaFragment"
+        android:name="com.example.enrutamientoavanzado.NuevaNotaFragment"
+        android:label="@string/titulo_nueva_nota"
+        tools:layout="@layout/fragment_nueva_nota">
+
+        <action
+            android:id="@+id/action_nuevaNotaFragment_to_detalleNotaFragment"
+            app:destination="@id/detalleNotaFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detalleNotaFragment"
+        android:name="com.example.enrutamientoavanzado.DetalleNotaFragment"
+        android:label="@string/titulo_detalle_nota"
+        tools:layout="@layout/fragment_detalle_nota">
+
+        <argument
+            android:name="tituloNota"
+            app:argType="string" />
+
+        <argument
+            android:name="contenidoNota"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <!-- adb shell am start -W -a android.intent.action.VIEW -d "notas://detalle/MiNota" -->
+        <deepLink app:uri="notas://detalle/{tituloNota}" />
+    </fragment>
+
+</navigation>
