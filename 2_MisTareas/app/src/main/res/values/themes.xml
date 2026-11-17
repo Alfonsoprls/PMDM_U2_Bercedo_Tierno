@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.MisTareas" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/verde_azulado</item>
+        <item name="android:statusBarColor">@color/verde_azulado_oscuro</item>
+    </style>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mis Tareas</string>
+
+    <string name="prioridad_alta">Alta</string>
+    <string name="prioridad_media">Media</string>
+    <string name="prioridad_baja">Baja</string>
+    <string name="prioridad_formato">Prioridad: %1$s</string>
+    <string name="prioridad_cambiada">Prioridad cambiada a %1$s</string>
+
+    <string name="menu_vista_cuadricula">Vista en cuadrícula</string>
+    <string name="menu_vista_lista">Vista en lista</string>
+    <string name="menu_borrar_completadas">Borrar completadas</string>
+    <string name="menu_duplicar">Duplicar</string>
+    <string name="menu_eliminar">Eliminar</string>
+
+    <string name="titulo_copia">%1$s (copia)</string>
+    <string name="tarea_duplicada">Tarea duplicada</string>
+    <string name="tarea_eliminada">Tarea eliminada</string>
+    <string name="sin_completadas">No hay tareas completadas</string>
+    <plurals name="tareas_borradas">
+        <item quantity="one">Se ha borrado %d tarea completada</item>
+        <item quantity="many">Se han borrado %d tareas completadas</item>
+        <item quantity="other">Se han borrado %d tareas completadas</item>
+    </plurals>
+
+    <string name="cd_completada">Marcar como completada</string>
+    <string name="cd_cambiar_prioridad">Cambiar prioridad</string>
+
+    <string-array name="tareas_ejemplo">
+        <item>Entregar el hito de PMDM</item>
+        <item>Repasar RecyclerView</item>
+        <item>Comprar el pan</item>
+        <item>Preparar el entrenamiento</item>
+        <item>Estudiar para el examen de SGE</item>
+        <item>Llamar al dentista</item>
+    </string-array>
+</resources>

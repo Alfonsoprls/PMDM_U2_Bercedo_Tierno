@@ -1,0 +1,7 @@
+<resources>
+    <color name="verde_azulado">#00897B</color>
+    <color name="verde_azulado_oscuro">#00695C</color>
+    <color name="prioridad_alta">#E53935</color>
+    <color name="prioridad_media">#FB8C00</color>
+    <color name="prioridad_baja">#43A047</color>
+</resources>
